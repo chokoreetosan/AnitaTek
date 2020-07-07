@@ -130,21 +130,22 @@ At the conclusion of our sessions, you will have a customized written resume alo
           Price: $250<br/>
           </p>
           <p>
-          <PaypalExpressBtn env="production" client={client} currency={'USD'} total={250} shipping={1} style={{size:"responsive",shape:"rect", tagline:"false",color:"black"}}/>
+          <PaypalExpressBtn env="production" client={client} currency={'USD'} total={250} shipping={2} style={{size:"responsive",shape:"rect", tagline:"false",color:"black"}}/>
           </p>
           <p>
           Package Name: Premium<br/>
 Package Description: Consultation, multi-meetings, expertly crafted LinkedIn profile and resume, Wellness assessment  <br/>
 Price: $350<br/>
           </p>
-          <PaypalExpressBtn env="production" client={client} currency={'USD'} total={350} shipping={1} style={{size:"responsive",shape:"rect", tagline:"false",color:"black"}}/>
+          <PaypalExpressBtn env="production" client={client} currency={'USD'} total={350} shipping={2} style={{size:"responsive",shape:"rect", tagline:"false",color:"black"}}/>
           <p>
           Package Name: Elite Career and Wellness Quest<br />
 Package Description: Consultation, multi-meetings, customized LinkedIn profile, top-tier resume, tracking tools, personalized wellness optimization guide, and in-depth integrated guidance  <br/>
 Price: $500
 <br/>
           </p>
-<PaypalExpressBtn env="production" client={client} currency={'USD'} total={500} shipping={1} style={{size:"responsive",shape:"rect", tagline:"false",color:"black"}}/>
+<PaypalExpressBtn env="production" client={client} currency={'USD'} total={500} shipping={2} style={{size:"responsive",shape:"rect", tagline:"false",color:"black"}}/>
+
           {close}
         </article>
 
