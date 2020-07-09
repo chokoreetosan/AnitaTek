@@ -143,9 +143,10 @@ Price: $350<br/>
 Package Description: Consultation, multi-meetings, customized LinkedIn profile, top-tier resume, tracking tools, personalized wellness optimization guide, and in-depth integrated guidance  <br/>
 Price: $500
 <br/>
+
           </p>
 <PaypalExpressBtn env="production" client={client} currency={'USD'} total={500} shipping={2} style={{size:"responsive",shape:"rect", tagline:"false",color:"black"}}/>
-
+<p>Due to COVID-19, I'm currently accepting donations. Please direct donations to anita@punditproservices.com via Paypal.</p>
           {close}
         </article>
 
